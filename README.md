@@ -49,4 +49,31 @@ graph TD
     L --> M
     
     M --> N["End: Data Logging .csv"]
+```
+### 📂 File Structure & Condition Mapping
 
+The repository includes Python scripts (developed using **PsychoPy**) corresponding to different experimental conditions. The filenames follow the convention `Condition_Attribution_Necessity`.
+
+| Filename | Social Condition | Attribution Style | Cooperative Necessity | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| `Exc_Int_Low.py` | **Exclusion** | **Internal** | **Low** | Excluded participants given internal attribution feedback; PGG has low survival threshold. |
+| `Exc_Int_High.py` | **Exclusion** | **Internal** | **High** | Excluded participants given internal attribution feedback; PGG has high survival threshold. |
+| `Exc_Ext_Low.py` | **Exclusion** | **External** | **Low** | Excluded participants given external attribution feedback; PGG has low survival threshold. |
+| `Exc_Ext_High.py` | **Exclusion** | **External** | **High** | Excluded participants given external attribution feedback; PGG has high survival threshold. |
+| `Inc_Int_Low.py` | **Inclusion** | **Internal** | **Low** | Control condition (Included) with internal attribution consistency check. |
+| `Inc_Ext_Low.py` | **Inclusion** | **External** | **Low** | Control condition (Included) with external attribution consistency check. |
+
+> **Note:** The **Body Posture** variable (Defensive vs. Neutral) is manipulated via experimenter instruction and physical constraints before the task begins. It applies across these scripts depending on the participant's assignment group.
+
+## 🛠️ Prerequisites & Installation
+
+To run these experiments, you need a Python environment with the PsychoPy library installed.
+
+### Recommended Environment
+* **PsychoPy Standalone:** [Download Here](https://www.psychopy.org/download.html) (Recommended for stability).
+* **Python Version:** Python 3.8+ (if running from source).
+
+### Dependencies
+If you are running from a standard Python environment, install the required packages:
+```bash
+pip install psychopy pandas numpy openpyxl
