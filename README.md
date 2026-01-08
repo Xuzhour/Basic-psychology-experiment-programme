@@ -67,7 +67,7 @@ The repository includes Python scripts (developed using **PsychoPy**) correspond
 
 ## 🛠️ Prerequisites & Installation
 
-To run these experiments, you need a Python environment with the PsychoPy library installed.
+To execute these experiments, a Python environment with the PsychoPy library is required. Additionally, the Cyberball paradigm must be configured with Condition 1 set to 'Exclusive' and Condition 2 set to 'Inclusive'
 
 ### Recommended Environment
 * **PsychoPy Standalone:** [Download Here](https://www.psychopy.org/download.html) (Recommended for stability).
