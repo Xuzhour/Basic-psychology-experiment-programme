@@ -16,7 +16,7 @@ The experiment employs a quantitative mixed design utilizing two classic psychol
 2.  **Public Goods Game (PGG):** Used to measure subsequent cooperative behavior.
 
 ### Key Variables
-* **Body Posture:** Defensive (e.g., crossed arms) vs. Neutral (Manipulated physically/instructionally).
+* **Body Posture:** Defensive (e.g., crossed arms) vs. Neutral (Manipulated physically/instructionally by the ID).
 * **Attribution Style:** Internal vs. External (Manipulated via feedback instructions).
 * **Cooperative Necessity:** High vs. Low (Manipulated via PGG threshold rules).
 
